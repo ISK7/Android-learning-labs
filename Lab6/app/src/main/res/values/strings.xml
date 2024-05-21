@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Rectangles</string>
+    <string name="menu_gallery">Deletable elements</string>
+    <string name="menu_slideshow">Values</string>
+    <string name="menu_notes">Notes</string>
+    <string name="menu_save">Save</string>
+
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="pink">Pink</string>
+
+    <string name="add">Add</string>
+    <string name="element">Element №</string>
+    <string name="save">Save</string>
+</resources>

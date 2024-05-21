@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lab3_Rectangles</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="square">Квадрат</string>
+    <string name="animate">Animate</string>
+    <string name="cansel">cansel</string>
+    <string name="sum">calc sum</string>
+
+    <string name="menu_home">2_3</string>
+    <string name="menu_gallery">4</string>
+    <string name="menu_slideshow">5</string>
+    <string name="menu_six">6</string>
+    <string name="menu_seven">7</string>
+    <string name="menu_eight">8</string>
+</resources>

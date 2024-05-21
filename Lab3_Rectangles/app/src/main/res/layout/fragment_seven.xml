@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.animated.SevenFragment">
+
+
+    <Button
+        android:id="@+id/animate_button"
+        android:layout_width="100pt"
+        android:layout_height="50pt"
+        android:text="@string/animate" />
+    <GridLayout
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+    <com.example.lab3_rectangles.Square
+        android:id="@+id/black_square"
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        app:squareColor="@color/black"
+        android:layout_row="0"
+        android:layout_column="0"
+        />
+
+    <TextView
+        android:id="@+id/anim_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/animate"
+        android:textColor="@color/white"
+        android:layout_row="0"
+        android:layout_column="0"
+        />
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

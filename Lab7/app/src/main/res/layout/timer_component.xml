@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <com.example.lab7.ui.stopwatch.DigitComponent
+        android:layout_weight="1"
+        android:id="@+id/hoursDigit"
+        android:layout_width="20pt"
+        android:layout_height="16pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="100px"
+        android:textColor="@color/black"
+        android:text=":"
+
+        />
+
+    <com.example.lab7.ui.stopwatch.DigitComponent
+        android:layout_weight="1"
+        android:id="@+id/minutesDigit"
+        android:layout_width="20pt"
+        android:layout_height="16pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="100px"
+        android:textColor="@color/black"
+        android:text=":"
+        />
+
+    <com.example.lab7.ui.stopwatch.DigitComponent
+        android:layout_weight="1"
+        android:id="@+id/secondsDigit"
+        android:layout_width="20pt"
+        android:layout_height="16pt" />
+
+</LinearLayout>

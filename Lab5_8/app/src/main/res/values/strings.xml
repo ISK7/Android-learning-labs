@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Lab5_8</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="add">Add Task</string>
+</resources>

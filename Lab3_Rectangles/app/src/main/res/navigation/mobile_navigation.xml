@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.lab3_rectangles.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_2_3" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.lab3_rectangles.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_4" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.lab3_rectangles.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_5" />
+    <fragment
+        android:id="@+id/nav_six"
+        android:name="com.example.lab3_rectangles.ui.rotated.RotatedFragment"
+        android:label="@string/menu_six"
+        tools:layout="@layout/fragment_6" />
+    <fragment
+        android:id="@+id/nav_seven"
+        android:name="com.example.lab3_rectangles.ui.animated.SevenFragment"
+        android:label="@string/menu_seven"
+        tools:layout="@layout/fragment_seven" />
+    <fragment
+        android:id="@+id/nav_eight"
+        android:name="com.example.lab3_rectangles.ui.summer.SumFragment"
+        android:label="@string/menu_eight"
+        tools:layout="@layout/fragment_sum" />
+</navigation>

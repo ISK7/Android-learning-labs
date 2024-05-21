@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.rotated.RotatedFragment">
+
+    <com.example.lab3_rectangles.Square
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/black_square"
+        android:rotation="45"
+        android:scaleY="2.5"
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        app:squareColor="@color/black"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

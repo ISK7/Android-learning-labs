@@ -1,0 +1,26 @@
+<resources>
+    <string-array name="Chooses">
+        <item>First</item>
+        <item>Second</item>
+        <item>Third</item>
+    </string-array>
+    <string name="app_name">Lab3_GUI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="num_placeholder">123</string>
+    <string name="num_header">Enter a number</string>
+    <string name="butt_butt">Button</string>
+    <string name="butt_down">Button downed</string>
+    <string name="butt_press">Button pressed</string>
+    <string name="butt_count">Count</string>
+    <string name="switch_off">Выключен</string>
+    <string name="switch_on">Включен</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

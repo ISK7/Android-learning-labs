@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab5_2to5</string>
+    <string name="first_page">First page</string>
+    <string name="second_page">Second page</string>
+    <string name="delete_page">Delete page</string>
+    <string name="back">Back</string>
+    <string name="text">Text</string>
+    <string name="data">Data</string>
+    <string name="time">Time</string>
+</resources>
