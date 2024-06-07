@@ -13,7 +13,7 @@ import retrofit.http.Query;
 
 public class YandexSpellingChecker {
 
-    private static String YANDEX_API_KEY = "dict.1.1.20240523T125915Z.fb92c46c7d7b0efd.27d8db9e5a43356f5aaf65775264c5674113dd3c";
+    private static String YANDEX_API_KEY = "fig_tebe";
     private static final String YANDEX_API_BASE_URL = "https://dictionary.yandex.net/api/v1/";
 
     private YandexDictionaryService yandexDictionaryService;
