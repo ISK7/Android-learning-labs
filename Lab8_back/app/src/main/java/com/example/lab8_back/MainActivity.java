@@ -20,5 +20,7 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        String[] req = {"android.permission.READ_PHONE_STATE"};
+        requestPermissions(req, 1);
     }
 }

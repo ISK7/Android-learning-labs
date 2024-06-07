@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="Widget.Theme.KisGame.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+        <item name="exampleColor">@color/light_blue_400</item>
+    </style>
+    <style name="PickUp.ColorNum.1" parent="">
+        <item name="colorNum">1</item>
+    </style>
+    <style name="PickUp.ColorNum.2" parent="">
+        <item name="colorNum">2</item>
+    </style>
+    <style name="PickUp.ColorNum.3" parent="">
+        <item name="colorNum">3</item>
+    </style>
+    <style name="PickUp.ColorNum.4" parent="">
+        <item name="colorNum">4</item>
+    </style>
+</resources>

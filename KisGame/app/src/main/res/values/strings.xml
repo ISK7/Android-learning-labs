@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KisGame</string>
+    <string name="background">Background</string>
+    <string name="pipe">Pipe</string>
+    <string name="fish">Fish</string>
+    <string name="gun">Shotgun</string>
+    <string name="pik_up">PickUp background</string>
+    <string name="title">KIS Game</string>
+    <string name="start">Click anywhere to start!</string>
+    <string name="start_score">0</string>
+    <string name="start_dps">10</string>
+    <string name="defeat_background">Defeat background</string>
+    <string name="game_over">GAME OVER!</string>
+    <string name="score">Score: </string>
+    <string name="try_again">Try again!</string>
+</resources>

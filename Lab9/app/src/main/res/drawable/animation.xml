@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item android:drawable="@drawable/king_knight_1_foreground" android:duration="150" />
+    <item android:drawable="@drawable/king_knight_2_foreground" android:duration="150" />
+    <item android:drawable="@drawable/king_knight_3_foreground" android:duration="150" />
+    <item android:drawable="@drawable/king_knight_4_foreground" android:duration="150" />
+    <item android:drawable="@drawable/king_knight_5_foreground" android:duration="150" />
+    <item android:drawable="@drawable/king_knight_6_foreground" android:duration="150" />
+</animation-list>
